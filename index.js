@@ -1,6 +1,6 @@
 const io = require("socket.io")(9000, {
   cors: {
-    origin: "http://localhost:3000", // Your frontend URL
+    origin: "https://socialchatgrissa.netlify.app", // Your frontend URL
   },
 });
 
